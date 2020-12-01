@@ -21,7 +21,7 @@ func main() {
 	fmt.Printf("Would run day: %d\n", *day)
 	switch *day {
 	case 1:
-		days.Day1()
+		days.Day1(days.Day1_data)
 	default:
 		fmt.Println("We don't have that day...")
 	}

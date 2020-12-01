@@ -7,9 +7,9 @@ import (
 )
 
 func TestDay1(t *testing.T) {
-	var result int64 = days.Day1()
-	if result != 4 {
+	var result int = days.Day1([]int{1721, 979, 366, 299, 675, 1456})
+	if result != 514579 {
 		t.Fail()
-		t.Logf("Day1 doesn't return 4! OMGWTFBBQ!!!")
+		t.Logf("Day1 example should return 514579, got %d", result)
 	}
 }
