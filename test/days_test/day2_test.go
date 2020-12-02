@@ -15,11 +15,11 @@ func TestDay2(t *testing.T) {
 	var result int = days.Day2a(example)
 	if result != 2 {
 		t.Fail()
-		t.Logf("Day1a example should return 2, got %d", result)
+		t.Logf("Day2a example should return 2, got %d", result)
 	}
 	result = days.Day2b(example)
-	if result != 2 {
+	if result != 1 {
 		t.Fail()
-		t.Logf("Day1b example should return 2, got %d", result)
+		t.Logf("Day2b example should return 1, got %d", result)
 	}
 }

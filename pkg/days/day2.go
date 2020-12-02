@@ -33,6 +33,21 @@ func Day2a(input []string) int {
 }
 
 func Day2b(input []string) int {
-	var retval int = 2
+	var retval = 0
+	var splits []string
+	var leftright_split []string
+	var letter byte
+	var password string
+	for _, entry := range input {
+		splits = strings.Split(entry, " ")
+		leftright_split = strings.Split(splits[0], "-")
+		letter = splits[1][0]
+		password = splits[2]
+		left, _ := strconv.ParseInt(leftright_split[0], 10, 64)
+		right, _ := strconv.ParseInt(leftright_split[1], 10, 64)
+		if (letter == password[left-1]) != (letter == password[right-1]) {
+			retval++
+		}
+	}
 	return retval
 }
