@@ -26,8 +26,8 @@ func TestDay3(t *testing.T) {
 		t.Logf("Day3a example should return 7, got %d", result)
 	}
 	result = days.Day3b(example)
-	if result != 7 {
+	if result != 336 {
 		t.Fail()
-		t.Logf("Day3b example should return 7, got %d", result)
+		t.Logf("Day3b example should return 336, got %d", result)
 	}
 }
