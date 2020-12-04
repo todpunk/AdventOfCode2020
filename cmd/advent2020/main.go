@@ -29,6 +29,9 @@ func main() {
 	case 3:
 		fmt.Println("Day 3 Part 1:", days.Day3a(days.Day3_data))
 		fmt.Println("Day 3 Part 2:", days.Day3b(days.Day3_data))
+	case 4:
+		fmt.Println("Day 4 Part 1:", days.Day4a(days.Day4_data))
+		fmt.Println("Day 4 Part 2:", days.Day4b(days.Day4_data))
 	default:
 		fmt.Println("We don't have that day...")
 	}
