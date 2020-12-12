@@ -83,8 +83,8 @@ func main() {
 		fmt.Println("Day", *day, "Part 2:", days.Day8b(input))
 	case 9:
 		var input = convert_to_ints(parse_from_file("./input_files/day9.txt"))
-		fmt.Println("Day", *day, "Part 1:", days.Day9a(input), 25)
-		fmt.Println("Day", *day, "Part 2:", days.Day9b(input))
+		fmt.Println("Day", *day, "Part 1:", days.Day9a(input, 25))
+		fmt.Println("Day", *day, "Part 2:", days.Day9b(input, 25))
 	case 10:
 		var input = parse_from_file("./input_files/day10.txt")
 		fmt.Println("Day", *day, "Part 1:", days.Day10a(input))
