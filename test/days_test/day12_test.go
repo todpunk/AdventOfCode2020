@@ -8,17 +8,20 @@ import (
 
 func TestDay12(t *testing.T) {
 	var example = []string{
-		"abc",
-		"",
+		"F10",
+		"N3",
+		"F7",
+		"R90",
+		"F11",
 	}
 	var result int = days.Day12a(example)
-	if result != 5 {
+	if result != 25 {
 		t.Fail()
-		t.Logf("Day12a example should return 5, got %d", result)
+		t.Logf("Day12a example should return 25, got %d", result)
 	}
 	result = days.Day12b(example)
-	if result != 5 {
+	if result != 286 {
 		t.Fail()
-		t.Logf("Day12b example should return 5, got %d", result)
+		t.Logf("Day12b example should return 286, got %d", result)
 	}
 }

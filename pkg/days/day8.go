@@ -1,6 +1,7 @@
 package days
 
 import (
+	"fmt"
 	"strconv"
 	"strings"
 )
@@ -27,7 +28,7 @@ func Day8a(input []string) int {
 		case "dun":
 			looped = true
 		default:
-			println("This should never occur, bad input")
+			fmt.Println("This should never occur, bad input")
 		}
 	}
 	return int(accumulator)
@@ -84,7 +85,7 @@ func Day8b(input []string) int {
 			case "dun":
 				looped = true
 			default:
-				println("This should never occur, bad input", current_op, len(cpy))
+				fmt.Println("This should never occur, bad input", current_op, len(cpy))
 				break
 			}
 			if int(current_op) == len(cpy) {
@@ -99,6 +100,6 @@ func Day8b(input []string) int {
 		}
 		count++
 	}
-	println("looked at", count, "things,", potentials, "potentials with the instruction being", i+1, input[i+1])
+	// fmt.Println("looked at", count, "things,", potentials, "potentials with the instruction being", i+1, input[i+1])
 	return int(accumulator)
 }

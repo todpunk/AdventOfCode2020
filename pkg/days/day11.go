@@ -191,7 +191,7 @@ func Day11a(input []string) int {
 		// }
 	}
 
-	fmt.Println("Iterations:", iter)
+	// fmt.Println("Iterations:", iter)
 	for _, seat := range seats_list {
 		if seat == '#' {
 			seats_taken++
@@ -236,7 +236,7 @@ func Day11b(input []string) int {
 		// }
 	}
 
-	fmt.Println("Iterations:", iter)
+	// fmt.Println("Iterations:", iter)
 	for _, seat := range seats_list {
 		if seat == '#' {
 			seats_taken++
