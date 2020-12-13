@@ -97,6 +97,14 @@ func main() {
 		var input = parse_from_file("./input_files/day12.txt")
 		fmt.Println("Day", *day, "Part 1:", days.Day12a(input))
 		fmt.Println("Day", *day, "Part 2:", days.Day12b(input))
+	case 13:
+		var input = parse_from_file("./input_files/day13.txt")
+		fmt.Println("Day", *day, "Part 1:", days.Day13a(input))
+		fmt.Println("Day", *day, "Part 2:", days.Day13b(input))
+	case 14:
+		var input = parse_from_file("./input_files/day14.txt")
+		fmt.Println("Day", *day, "Part 1:", days.Day14a(input))
+		fmt.Println("Day", *day, "Part 2:", days.Day14b(input))
 	default:
 		fmt.Println("We don't have that day...")
 	}
