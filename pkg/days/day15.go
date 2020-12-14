@@ -1,9 +1,9 @@
 package days
 
-func Day14a(input []string) int {
+func Day15a(input []string) int {
 	return 4
 }
 
-func Day14b(input []string) int {
+func Day15b(input []string) int {
 	return 4
 }
