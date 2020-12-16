@@ -113,6 +113,42 @@ func main() {
 		var input = parse_from_file("./input_files/day16.txt")
 		fmt.Println("Day", *day, "Part 1:", days.Day16a(input))
 		fmt.Println("Day", *day, "Part 2:", days.Day16b(input))
+	case 17:
+		var input = parse_from_file("./input_files/day17.txt")
+		fmt.Println("Day", *day, "Part 1:", days.Day17a(input))
+		fmt.Println("Day", *day, "Part 2:", days.Day17b(input))
+	// case 18:
+	// 	var input = parse_from_file("./input_files/day18.txt")
+	// 	fmt.Println("Day", *day, "Part 1:", days.Day18a(input))
+	// 	fmt.Println("Day", *day, "Part 2:", days.Day18b(input))
+	// case 19:
+	// 	var input = parse_from_file("./input_files/day19.txt")
+	// 	fmt.Println("Day", *day, "Part 1:", days.Day19a(input))
+	// 	fmt.Println("Day", *day, "Part 2:", days.Day19b(input))
+	// case 20:
+	// 	var input = parse_from_file("./input_files/day20.txt")
+	// 	fmt.Println("Day", *day, "Part 1:", days.Day20a(input))
+	// 	fmt.Println("Day", *day, "Part 2:", days.Day20b(input))
+	// case 21:
+	// 	var input = parse_from_file("./input_files/day21.txt")
+	// 	fmt.Println("Day", *day, "Part 1:", days.Day21a(input))
+	// 	fmt.Println("Day", *day, "Part 2:", days.Day21b(input))
+	// case 22:
+	// 	var input = parse_from_file("./input_files/day22.txt")
+	// 	fmt.Println("Day", *day, "Part 1:", days.Day22a(input))
+	// 	fmt.Println("Day", *day, "Part 2:", days.Day22b(input))
+	// case 23:
+	// 	var input = parse_from_file("./input_files/day23.txt")
+	// 	fmt.Println("Day", *day, "Part 1:", days.Day23a(input))
+	// 	fmt.Println("Day", *day, "Part 2:", days.Day23b(input))
+	// case 24:
+	// 	var input = parse_from_file("./input_files/day24.txt")
+	// 	fmt.Println("Day", *day, "Part 1:", days.Day24a(input))
+	// 	fmt.Println("Day", *day, "Part 2:", days.Day24b(input))
+	// case 25:
+	// 	var input = parse_from_file("./input_files/day25.txt")
+	// 	fmt.Println("Day", *day, "Part 1:", days.Day25a(input))
+	// 	fmt.Println("Day", *day, "Part 2:", days.Day25b(input))
 	default:
 		fmt.Println("We don't have that day...")
 	}
